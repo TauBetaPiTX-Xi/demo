@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="scripts/jquery-3.4.1.min.js"></script>
+    <script src="scripts/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <style>
+      html{
+        height: 100%;
+      }
+      body{
+        height: 100%;
+      }
+      .container-fluid{
+        height: 100%;
+      }
+      .main{
+        height: 70%;
+        background: linear-gradient(rgba(223, 117, 0, 0.75), rgba(223, 117, 0, 0.75)), url(images/utd04.jpg), no-repeat, 0, 0;
+        color: white !important;
+      }
+      .center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .left{
+        background: linear-gradient(rgba(18, 71, 52, 0.75), rgba(18, 71, 52, 0.75)), url(images/utd02.jpg), no-repeat, 0, 0;
+        color: white;
+      }
+      .link-content-left{
+        color: white;
+      }
+      .link-content-left:hover{
+        color: rgb(200, 200, 200);
+        text-decoration: none;
+      }
+      .link-content-left:visited{
+        color: white;
+        text-decoration: none;
+      }
+      .right{
+        background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url(images/utd03.jpg), no-repeat, 0, 0;
+        color: white;
+      }
+      .link-content-right{
+        color: black;
+      }
+      .link-content-right:hover{
+        color: rgb(127, 127, 127);
+        text-decoration: none;
+      }
+      .link-content-right:visited{
+        color: black;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid d-flex flex-column">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light w-100">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/TX_X_Logo_Horizontal.png" width="150" height="47" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#texasXiNavbar" aria-controls="texasXiNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="texasXiNavbar">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="whoWeAre.html">Who We Are</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="officersAndAdvisors.html">Officers and Advisors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="events.html">Events</a>
+          </li>
+	  <li class="nav-item">
+            <a class="nav-link" href="benefits.html">Benefits</a>
+          </li>
+	  <li class="nav-item">
+            <a class="nav-link" href="howToJoin.html">Want to Join?</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+	      
+      </div>
+      <div class="row main p-3">
+        <main class="mainContent m-auto text-center">
+          <h1>Tau Beta Pi, Texas Xi Chapter</h1>
+          <h3>The Premier Engineering Honor Society of the University of Texas at Dallas</h3>
+          <p class="lead">
+            As part of the largest engineering honor society, we are committed to promoting integrity and excellence in engineering through academic achievement, professional development, and more.
+          </p>
+        </main>
+      </div>
+      <div class="row flex-grow-1">
+        <div class="col-sm center left">
+          <a class="link-content-left" href="whoWeAre.html">
+            <h4 class="text-center">Learn more about our honor society.</h4>
+          </a>
+        </div>
+        <div class="col-sm center right">
+          <a class="link-content-right" href="events.html">
+            <h4 class="text-center">Attend some of our events.</h4>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
